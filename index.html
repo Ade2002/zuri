@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+
+        }
+        header{
+            padding: 3vh 1em;
+            background-color: rgb(52, 50, 50);
+            color: white;
+            text-align: center;
+            font-size: 18px;
+        }
+        div:nth-child(6){
+            margin-top: 3em;
+        }
+        a{
+            text-decoration: none;
+            padding: 3vh 2vw;
+            background-color: rgb(36, 123, 126);
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header >Quiz on Important facts</header>
+    <p>Which one of these is a JavaScript package manager?</p>
+    <div>
+        <input type="radio" name="packageType" id="nodejs">
+        <label for="nodejs">a: Node.js</label>
+    </div>
+    <div>
+        <input type="radio" name="packageType" id="TypeScript">
+        <label for="TypeScript">b: TypeScript</label>
+    </div>
+    <div>
+        <input type="radio" name="packageType" id="Npm">
+        <label for="Npm">c: Npm</label>
+    </div>
+    <div>
+        <a href="prev">Previous Question</a>
+        <a href="next">Next Question</a>
+    </div>
+</body>
+
+</html>
